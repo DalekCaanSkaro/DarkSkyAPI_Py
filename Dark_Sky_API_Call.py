@@ -6,7 +6,7 @@ from geopy.geocoders import GoogleV3
 import Hourly
 import Daily
 
-url = "https://api.darksky.net/forecast/3b26e4c0a2c77d09a5fdf69c950343b3/39.9522222,-75.1641667"
+url = "https://api.darksky.net/forecast/<Add Web Key Here>/39.9522222,-75.1641667"
 # geopy.geocoders.options.default_timeout = 15
 # geolocator = GoogleV3(api='AIzaSyAgfhSYbSFa83gb9aMiExI6hksxeQ-VwKo',format_string="%s, New York City, NY")
 # print(str(geolocator.geocode("175 5th Avenue")))
